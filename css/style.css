@@ -1,0 +1,29 @@
+body{
+	margin:0;
+	padding: 0;
+	background-image: url(../background.jpg);
+	background-size: cover;
+	font-family: 'open sans', sans serif;
+}
+#container{
+	border: 1px solid black;
+	font-size: 32px;
+	margin: 128px auto;
+	width: 768px;
+}
+h1{
+	text-shadow: 6px 4px 2px black;
+	text-align: center;
+	color: rgba(234, 44, 44,0.85);
+
+}
+input#nombre{
+	text-align: center;
+	background-color: black;
+	border: none;
+	font-size: 1.3em;
+}
+#affichage{
+	display: flex;
+	justify-content: center;
+}
