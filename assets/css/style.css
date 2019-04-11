@@ -1,8 +1,9 @@
 body{
 	margin:0;
 	padding: 0;
-	background-image: url(../background.jpg);
+	background-image: url(../img/background.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: 'open sans', sans serif;
 }
 #container{
@@ -27,3 +28,7 @@ input#nombre{
 	display: flex;
 	justify-content: center;
 }
+.Bouttons{
+
+}
+
