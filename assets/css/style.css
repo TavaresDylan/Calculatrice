@@ -6,12 +6,8 @@ body{
 	background-repeat: no-repeat;
 	font-family: 'open sans', sans serif;
 }
-#container{
-	border: 1px solid black;
-	font-size: 32px;
-	margin: 128px auto;
-	width: 768px;
-}
+
+
 h1{
 	text-shadow: 6px 4px 2px black;
 	text-align: center;
@@ -20,9 +16,9 @@ h1{
 }
 input#nombre{
 	text-align: center;
-	background-color: black;
-	border: none;
-	font-size: 1.3em;
+	font-size: 1.5em;
+	height: 60px;
+	width: 100%;
 }
 #affichage{
 	display: flex;
