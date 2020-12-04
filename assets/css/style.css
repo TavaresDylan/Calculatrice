@@ -1,28 +1,40 @@
 body{
 	margin:0;
 	padding: 0;
-	background-image: url(../img/background.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: orange;
 	font-family: 'open sans', sans serif;
 }
 
 
 h1{
-	text-shadow: 6px 4px 2px black;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 4px;
+	background: rgb(0, 0, 0);
+	margin: 20px;
+	text-shadow: 4px 0px 1px rgba(255, 255, 255, 0.208);
 	text-align: center;
-	color: rgba(234, 44, 44,0.85);
-
+	color: rgba(255, 255, 255, 0.85);
+	font-weight: bold;
+	font-style: italic;
+}
+span{
+	color: rgba(247, 240, 39, 0.85);
 }
 input#nombre{
 	text-align: center;
 	font-size: 1.5em;
 	height: 60px;
-	width: 100%;
+	width: 300px;
+	border-radius: 4px;
 }
 #affichage{
 	display: flex;
 	justify-content: center;
+}
+#matrix{
+	display: flex;
+	width: 40%;
+	margin: auto;
 }
 .Bouttons{
 

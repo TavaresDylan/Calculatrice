@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>Calculatrice</title>
 </head>
+
 <body>
 
-<div id="body" class="container bg-dark mt-5">
-	<h1>Calculatrice Première Partie</h1>
-		<div id="calculator">
+	<h1 class="h1">Calculatrice <span>JS</span></h1>
+
+	<div id="matrix" class="bg-dark mt-auto d-flex p-3">
+
+		<div class="col-lg-12" id="calculator">
 			<div class="" id="affichage">
-				<input class="bg-light" type="number" id="nombre" value="0" autocomplete="off" disabled/>
+				<input class="bg-light" type="number" id="nombre" value="0" autocomplete="off" disabled />
 			</div>
-				<div class="row m-2 p-2" id="touches">
+			<div class="pt-1 offset-3 col-lg-6" id="touches">
+				<div class="row">
 					<div class="btn btn-outline-info col-lg-4 btn-lg">1</div>
 					<div class="btn btn-outline-info col-lg-4 btn-lg">2</div>
 					<div class="btn btn-outline-info col-lg-4 btn-lg">3</div>
+				</div>
+				<div class="row">
 					<div class="btn btn-outline-info col-lg-4 btn-lg">4</div>
 					<div class="btn btn-outline-info col-lg-4 btn-lg">5</div>
 					<div class="btn btn-outline-info col-lg-4 btn-lg">6</div>
+				</div>
+				<div class="row">
 					<div class="btn btn-outline-info col-lg-4 btn-lg">7</div>
 					<div class="btn btn-outline-info col-lg-4 btn-lg">8</div>
 					<div class="btn btn-outline-info col-lg-4 btn-lg">9</div>
-					<div class="btn btn-outline-info col-lg-4 btn-lg">0</div>
+					
+				</div>
+				<div class="row">
 					<div class="btn btn-outline-info col-lg-4 btn-lg">+</div>
-					<div class="btn btn-outline-info col-lg-4 btn-lg">-</div>
+					<div class="btn btn-outline-info col-lg-4 btn-lg">0</div>
 					<div class="btn btn-outline-info col-lg-4 btn-lg">/</div>
+				</div>
+				<div class="row">
+					<div class="btn btn-outline-info col-lg-4 btn-lg">-</div>
 					<div class="btn btn-outline-info col-lg-4 btn-lg">*</div>
-					<div class="btn btn-outline-info col-lg-4 btn-lg">=</div>
 					<div class="btn btn-outline-info col-lg-4 btn-lg">.</div>
 				</div>
-
+				<div class="row">
+					<div class="btn btn-outline-info col-lg-12 btn-lg">=</div>
+				</div>
+			</div>
 		</div>
-</div>
-<script type="text/javascript" src="assets/js/script.js"></script>
+	</div>
+	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
+
 </html>
