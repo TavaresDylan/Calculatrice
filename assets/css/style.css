@@ -20,7 +20,7 @@ h1{
 span{
 	color: rgba(247, 240, 39, 0.85);
 }
-input#nombre{
+#output{
 	text-align: center;
 	font-size: 1.5em;
 	height: 60px;

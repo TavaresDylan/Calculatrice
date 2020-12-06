@@ -19,28 +19,28 @@
 
 		<div class="col-lg-12" id="calculator">
 			<div class="" id="affichage">
-				<input class="bg-light" type="number" id="nombre" value="0" autocomplete="off" disabled />
+				<input class="bg-light" type="number" id="output" value="0" autocomplete="off" disabled />
 			</div>
 			<div class="pt-1 offset-3 col-lg-6" id="touches">
 				<div class="row">
-					<div class="btn btn-outline-info col-lg-4 btn-lg">1</div>
-					<div class="btn btn-outline-info col-lg-4 btn-lg">2</div>
-					<div class="btn btn-outline-info col-lg-4 btn-lg">3</div>
+					<div id="nb1" class="btn btn-outline-info col-lg-4 btn-lg" onclick="get_id(this.id)">1</div>
+					<div id="nb2" class="btn btn-outline-info col-lg-4 btn-lg" onclick="get_id(this.id)">2</div>
+					<div id="nb3" class="btn btn-outline-info col-lg-4 btn-lg" onclick="get_id(this.id)">3</div>
 				</div>
 				<div class="row">
-					<div class="btn btn-outline-info col-lg-4 btn-lg">4</div>
-					<div class="btn btn-outline-info col-lg-4 btn-lg">5</div>
-					<div class="btn btn-outline-info col-lg-4 btn-lg">6</div>
+					<div id="nb4" class="btn btn-outline-info col-lg-4 btn-lg" onclick="get_id(this.id)">4</div>
+					<div id="nb5" class="btn btn-outline-info col-lg-4 btn-lg" onclick="get_id(this.id)">5</div>
+					<div id="nb6" class="btn btn-outline-info col-lg-4 btn-lg" onclick="get_id(this.id)">6</div>
 				</div>
 				<div class="row">
-					<div class="btn btn-outline-info col-lg-4 btn-lg">7</div>
-					<div class="btn btn-outline-info col-lg-4 btn-lg">8</div>
-					<div class="btn btn-outline-info col-lg-4 btn-lg">9</div>
+					<div id="nb7" class="btn btn-outline-info col-lg-4 btn-lg" onclick="get_id(this.id)">7</div>
+					<div id="nb8" class="btn btn-outline-info col-lg-4 btn-lg" onclick="get_id(this.id)">8</div>
+					<div id="nb9" class="btn btn-outline-info col-lg-4 btn-lg" onclick="get_id(this.id)">9</div>
 					
 				</div>
 				<div class="row">
 					<div class="btn btn-outline-info col-lg-4 btn-lg">+</div>
-					<div class="btn btn-outline-info col-lg-4 btn-lg">0</div>
+					<div id="nb0" class="btn btn-outline-info col-lg-4 btn-lg" onclick="get_id(this.id)">0</div>
 					<div class="btn btn-outline-info col-lg-4 btn-lg">/</div>
 				</div>
 				<div class="row">
