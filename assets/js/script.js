@@ -1,52 +1,52 @@
 /*On récupère la variable d'entré dans l'input*/
 let output_value = document.getElementById("output").value
 let output = document.getElementById("output")
-var input_value = document.getElementById("nb1").innerHTML
-//console.log("output value : "+output_value)
-//console.log("input value : "+input_value)
-var input = document.getElementById("")
+let operator = false
+console.log(operator)
 
 /* On récupère l'id du boutton */
 function get_id(id=this.id){
-    console.log("get_id : "+id)
+    //console.log("get_id : "+id)
 
     var inputValue = document.getElementById(id).innerHTML
     console.log("inputValue : "+inputValue)
 
-    output.value += inputValue
+    if (operator == true){
+        document.getElementById("output").value = ""
+        operator = false
+    }
+    if (output.value > 9999){
+        console.log("!! Erreur de longueur !!")
+    }else{
+            output.value += inputValue
+        }
 }
 /* Fonction qui récupère la valeur de l'élément par rapport à son id */
 function get_value(){
-    var inputValue = document.getElementById(id).innerHTML
-    console.log(inputValue)
+    var first_value = document.getElementById("output").value
+    console.log("Première valeur: "+first_value)
 }
 /* Fonction pour insérer la valeur d'entré dans le cadre d'affichage */
 function set_value(id){
-    output.innerHTML
+    output.value = 
 }
 
-/* Définition de la classe */
-class Calculator{
+function add(){
+    console.log("Addition : ")
+    operator = true
+    log_value1 = document.getElementById("output").value
+    console.log("première valeur retenue : "+log_value1)
+    console.log("operateur passe à : "+operator)
+    
+}
 
-    constructor( base_number = 0) {
-        this.__base_number = document.getElementById(id).innerHTML;
-    }
-
-    add(base_number){
-        /*this.base_number = */
-    }
-
-    result(){
-
-    }
-
-    substract(){
-
-    } 
-
-    /* On récupère l'id du boutton */
-    get_id(id=this.id){
-    console.log(id)
-    }
-
+function get_result(){
+    log_value2 = document.getElementById("output").value
+    document.getElementById("output").value = ""
+    result = parseInt(log_value1) + parseInt(log_value2)
+    console.log(log_value1)
+    console.log(log_value2)
+    console.log(result)
+    document.getElementById("output").value = result
+    operator = true
 }
